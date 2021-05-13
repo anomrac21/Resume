@@ -11,11 +11,20 @@ a{
 h1,h2,h3,h4,h5,p{
 	margin:0;
 	padding:0;
-	font-family: sans-serif;
+	
 }
 html{
 	background-image:url("https://image.freepik.com/free-photo/old-gray-cement-wall-backgrounds_34552-324.jpg");
 	background-size:100% 100%;
+        font-family: sans-serif;
+}
+#workcard{
+    width: 26em;
+    padding: 1em;
+    display: block;
+    margin: 10px auto;
+    border-radius: 10px;
+    background: rgba(0,0,0,0.05);
 }
 #banner{
 	height:20px;
@@ -60,59 +69,63 @@ html{
 }
 
 #body{
-	background-color:#D90404;
 	width: 100%;
 	
 }
 #content{
 	padding:2.4em;
-    	font-size: 1.2em;
-	color:#fefefe;
-	
+    	font-size: 1.2em;	
 }
 #work{
 	padding:2.5em;
 	background-color:#F29F05;
 	font-size: 1.2em;
-	color:#fefefe;
+	
     	
 
 }
 #education{
 	padding:2.4em;
 	background-color:#0540F2;
-	color:#fefefe;
 	
 
 }
 #skills{
 	padding:2.4em;
 	background-color:#0ABF04;
-	color:#fefefe;
     	
 
 }
 #hobbies{
 	padding:2.4em;
 	font-size:1.2em;
-	font-weight:bold;
     	
 }
 #work, #education, #skills{
 	padding:2.4em;
     	font-size: 1.2em;
-	color:#fefefe;
     	
 
+}
+#education li{
+    padding: 1em;
+    display: block;
+    margin: 10px auto;
+    border-radius: 10px;
+    background: rgba(0,0,0,0.05);
+}
+#skills li{
+    padding: 1em;
+    display: inline-block;
+    margin: 10px auto;
+    border-radius: 10px;
+    background: rgba(0,0,0,0.05);
 }
 
 @media (max-width: 775px) {
 #header{
 	text-align:center;
 	padding:5vw;
-}
-#header a{
-	color:#fefefe;
 }
 #header h1{
 	font-size:5vw;
@@ -135,12 +148,8 @@ html{
 	font-size: 2.1vw;
 	padding:5vw;
 }
-#education{
-	width:auto;	
-}
-#skills{
-	width:100%;
-}
+
+
 .hide{
 	display:none;	
 }
@@ -160,9 +169,10 @@ html{
 	<div id='header'>
       	 	<h1>Curriculum Vitae</h2>	
 		<h2>Joel Carmona</h3>
+		<h5><a href="https://anomrac21studios.netlify.app/">anomrac21studios</a></h5>
 		<h5>Trinidad & Tobago</h5>
 		<h5>anomrac21@gmail.com 1-868-706-0349</h5>
-		<h5><a href="https://anomrac21.itch.io/">Games</a> | <a href="https://www.instagram.com/anomrac21studios/">Instagram</a> | <a href="https://twitter.com/anomrac21">Twitter</a> | <a href="https://nicoli.bandcamp.com/">BandCamp</a></h5>
+		<h5><a href="https://www.instagram.com/anomrac21studios/">Instagram</a> | <a href="https://twitter.com/anomrac21">Twitter</a> | <a href="https://anomrac21.itch.io/">itch.io</a> | <a href="https://nicoli.bandcamp.com/">BandCamp</a></h5>
 		<h5><a href="https://www.buymeacoffee.com/nicoli">Buy Me Coffee</a> | <a href="https://www.paypal.com/paypalme/2nicoli">PayPal</a></h5>
 		
       	</div>
@@ -182,10 +192,10 @@ html{
 	<div data-aos="flip-left" id='education'>
 		<h3 data-aos="flip-left">Education</h3>
 		<ul>
-		<li data-aos="fade-left">Mathematics: Grade 1(I), General.</li>
-		<li data-aos="fade-left">English A: Grade 3(III), General. Systems</li>
-		<li data-aos="fade-left">Technical Drawing: Grade 2(II), General.</li>
-		<li data-aos="fade-left">Geography: Grade 2(II), General.</li>
+		<li data-aos="fade-left">Mathematics: Grade 1(I), C.X.C. General.</li>
+		<li data-aos="fade-left">English A: Grade 3(III), C.X.C. General.</li>
+		<li data-aos="fade-left">Technical Drawing: Grade 2(II), C.X.C. General.</li>
+		<li data-aos="fade-left">Geography: Grade 2(II), C.X.C. General.</li>
 		<li data-aos="fade-left">Physics: Result C(c), GCE O Level.</li>
 		</ul>
 		
@@ -194,7 +204,7 @@ html{
 		<li data-aos="fade-left">Diploma in Computing and Information</li>
 		</ul>
 		
-		<h3 data-aos="fade-left">Qualifications</h3>
+		<h3 data-aos="fade-left">Additional Qualifications</h3>
 		<ul>
 		<li data-aos="fade-left">Computer Literacy</li>
 		<li data-aos="fade-left">Certified Internet Webmaster</li>
@@ -202,6 +212,106 @@ html{
 
 	</div>
 
+<div id='work'>
+		<h3 data-aos="fade-left">Work Experience</h3>
+		<div id="workcard">
+		<h3 data-aos="fade-left">2007-08:- Happy Landing Pet Supplies</h3>
+		<p data-aos="fade-left">(Sales Representative)</p>
+		<ul>
+		<li data-aos="fade-left">Sale and re-stocking of goods</li>
+		</ul>
+		</div>
+		<div id="workcard">
+		<h3 data-aos="fade-right">2008:- Fujitsu ICL</h3>
+		<p data-aos="fade-right">(Logistics Assistant)</p>
+		<ul>
+		<li data-aos="fade-right">Server assembly and Dispatcher (MOE SEMP Project.)</li>
+		</ul>
+
+		</div>
+		<div id="workcard">
+		
+
+		<h3 data-aos="fade-left">2010:- Chan Ramlal Ltd.</h3>
+		<p data-aos="fade-left">(Warehouse Attendant)</p>
+		<ul>
+		<li data-aos="fade-left">Assemble orders for delivery</li>
+		<li data-aos="fade-left">Delivery to customer and Pick up from Suppliers. </li>
+		</ul>
+
+		</div>
+		<div id="workcard">
+				
+		<h3 data-aos="fade-right">2011:- Radica Trading Limited</h3>
+		<p data-aos="fade-right">(Warehouse Attendant)</p>
+		<ul>
+		<li data-aos="fade-right">Assemble orders for delivery to Store Locations</li>
+		<li data-aos="fade-right">Manage Warehouse stock locations. </li>
+		</ul>
+
+		</div>
+		<div id="workcard">
+		
+		<h3 data-aos="fade-left">2012-2013:- D Soca Unit</h3>
+		<p data-aos="fade-left">(Sound Engineering)</p>
+		<ul>
+		<li data-aos="fade-left">Manage Logistics of Musical Equipment to and from Venue and Band Room.</li>
+		<li data-aos="fade-left">Setup all connections required for bands to perform</li>
+		<li data-aos="fade-left">Manage communications with Musicians and Sound Engineer During Live performances.</li>
+		</ul>
+
+		</div>
+		<div id="workcard">
+		
+		<h3 data-aos="fade-right">2013:- Calypso Marine Canvas/Calypso Fabric Architecture</h3>
+		<p data-aos="fade-right">(Customer Service Representative)</p>
+		<ul>
+		<li data-aos="fade-right">Construction and installation of Awning, Canopies, Canvas Enclosures and furniture for Marine and
+Industrial Clients</li>
+		</ul>
+
+		</div>
+		<div id="workcard">
+		
+		<h3 data-aos="fade-left">2014-2017:- Fujitsu Caribbean Limited</h3>
+		<p data-aos="fade-left">(Logistics Agent)</p>
+		<ul>
+		<li data-aos="fade-left">Coordinate and Manage deliveries to customers
+</li>
+		<li data-aos="fade-left">Ensure that suppliers orders, digital and physical, are delivered on time to designated locations</li>
+		<li data-aos="fade-left">Coordinate with Broker and Customs to Clear shipments</li>
+		<li data-aos="fade-left">Calculate a cost all incoming shipments to provide to Finance Dept</li>
+		</ul>
+
+		</div>
+		<div id="workcard">
+		
+		<h3 data-aos="fade-right">2010 - Present:- Web Application Development</h3>
+		<p data-aos="fade-right">(Managing Director)</p>
+		<ul>
+		<li data-aos="fade-right">Planning,Design and implementation of Web Applications</li>
+		<li data-aos="fade-right">UI/UX Design and Implementation</li>
+		<li data-aos="fade-right">Graphic Design</li>
+		<li data-aos="fade-left">Links: <a href="https://www.hog868.com/">Hall of Games 868</a> <a href="https://anomrac21studios.netlify.app/">anomrac21studios</a> </li>
+		</ul>
+		
+		</div>
+		<div id="workcard">
+		
+		<h3 data-aos="fade-left">2018- Present: Independent Game Developer</h3>
+		<p data-aos="fade-left">(Managing Director)</p>
+		<ul>
+		<li data-aos="fade-left">Planning, Design and Implementation of PC and Mobile Games</li>
+		<li data-aos="fade-left">UI/UX Design and Implementation</li>
+		<li data-aos="fade-left">Marketing and Community Management</li>
+		<li data-aos="fade-left">Links: <a href="https://anomrac21.itch.io/devgame">_devGame</a> <a href="https://anomrac21.itch.io/perfect-sandwich">Perfect Sandwich</a> <a href="https://anomrac21.itch.io/saving-roboio">Saving Robo.io</a>  <a href="https://anomrac21.itch.io/flyspace">Fly Space</a> </li>
+		</ul>
+
+		</div>
+		
+	</div>
+
+</div>
 	<div data-aos="fade-up" id='skills'>
 		<h3 data-aos="fade-left">Programing Languages</h3>
 		<ul>
@@ -242,82 +352,6 @@ html{
 
 		
 	</div>	
-	
-<div id='work'>
-		<h3 data-aos="fade-left">Work Experience</h3>
-		
-		<h3 data-aos="fade-left">2007-08:- Happy Landing Pet Supplies</h3>
-		<p data-aos="fade-left">(Sales Representative)</p>
-		<ul>
-		<li data-aos="fade-left">Sale and re-stocking of goods</li>
-		</ul>
-
-		<h3 data-aos="fade-right">2008:- Fujitsu ICL</h3>
-		<p data-aos="fade-right">(Logistics Assistant)</p>
-		<ul>
-		<li data-aos="fade-right">Server assembly and Dispatcher (MOE SEMP Project.)</li>
-		</ul>
-
-
-		<h3 data-aos="fade-left">2010:- Chan Ramlal Ltd.</h3>
-		<p data-aos="fade-left">(Warehouse Attendant)</p>
-		<ul>
-		<li data-aos="fade-left">Assemble orders for delivery</li>
-		<li data-aos="fade-left">Delivery to customer and Pick up from Suppliers. </li>
-		</ul>
-		
-		<h3 data-aos="fade-right">2011:- Radica Trading Limited</h3>
-		<p data-aos="fade-right">(Warehouse Attendant)</p>
-		<ul>
-		<li data-aos="fade-right">Assemble orders for delivery to Store Locations</li>
-		<li data-aos="fade-right">Manage Warehouse stock locations. </li>
-		</ul>
-
-		<h3 data-aos="fade-left">2012-2013:- D Soca Unit</h3>
-		<p data-aos="fade-left">(Sound Engineering)</p>
-		<ul>
-		<li data-aos="fade-left">Manage Logistics of Musical Equipment to and from Venue and Band Room.</li>
-		<li data-aos="fade-left">Setup all connections required for bands to perform</li>
-		<li data-aos="fade-left">Manage communications with Musicians and Sound Engineer During Live performances.</li>
-		</ul>
-
-		<h3 data-aos="fade-right">2013:- Calypso Marine Canvas/Calypso Fabric Architecture</h3>
-		<p data-aos="fade-right">(Customer Service Representative)</p>
-		<ul>
-		<li data-aos="fade-right">Construction and installation of Awning, Canopies, Canvas Enclosures and furniture for Marine and
-Industrial Clients</li>
-		</ul>
-
-		<h3 data-aos="fade-left">2014-2017:- Fujitsu Caribbean Limited</h3>
-		<p data-aos="fade-left">(Logistics Agent)</p>
-		<ul>
-		<li data-aos="fade-left">Coordinate and Manage deliveries to customers
-</li>
-		<li data-aos="fade-left">Ensure that suppliers orders, digital and physical, are delivered on time to designated locations</li>
-		<li data-aos="fade-left">Coordinate with Broker and Customs to Clear shipments</li>
-		<li data-aos="fade-left">Calculate a cost all incoming shipments to provide to Finance Dept</li>
-		</ul>
-
-		<h3 data-aos="fade-right">2010 - Present:- Web Application Development</h3>
-		<p data-aos="fade-right">(Managing Director)</p>
-		<ul>
-		<li data-aos="fade-right">Planning,Design and implementation of Web Applications</li>
-		<li data-aos="fade-right">UI/UX Design and Implementation</li>
-		<li data-aos="fade-right">Graphic Design</li>
-		<li data-aos="fade-left">Links: <a href="https://www.hog868.com/">Hall of Games 868</a> </li>
-		</ul>
-		
-		<h3 data-aos="fade-left">2018- Present: Independent Game Developer</h3>
-		<p data-aos="fade-left">(Managing Director)</p>
-		<ul>
-		<li data-aos="fade-left">Planning, Design and Implementation of PC and Mobile Games</li>
-		<li data-aos="fade-left">UI/UX Design and Implementation</li>
-		<li data-aos="fade-left">Marketing and Community Management</li>
-		<li data-aos="fade-left">Links: <a href="https://anomrac21.itch.io/devgame">_devGame</a> <a href="https://anomrac21.itch.io/perfect-sandwich">Perfect Sandwich</a> <a href="https://anomrac21.itch.io/saving-roboio">Saving Robo.io</a>  <a href="https://anomrac21.itch.io/flyspace">Fly Space</a> </li>
-		</ul>
-	</div>
-
-</div>
 <div id='hobbies'>
 		<p>I am the leader and musical coordinator of the band La Familia de Carmona y Amigos. I take part in game jams on itch.io, which is a great way to advance my skill set. When possible I provide solutions to problems on sites such as stackoverflow.com. I enjoy learning the tools in Blender.</p>
 </div>
