@@ -1,0 +1,98 @@
+a{
+	color:#0540F2;
+	text-shadow: none;
+	font-weight:bold;
+}
+h1,h2,h3,h4,h5,p{
+	margin:0;
+	padding:0;
+	
+}
+html{
+	background-image:url("https://image.freepik.com/free-photo/old-gray-cement-wall-backgrounds_34552-324.jpg");
+	background-size:100% 100%;
+        font-family: sans-serif;
+}
+
+#banner{
+	height:20px;
+}
+#banner_top{
+	width:20%;
+	height:20px;
+	float:left;
+}
+.a{	background-color:#D90404;
+}
+.b{	background-color:#F29F05;
+}
+.c{	background-color:#0540F2;
+}
+.d{	background-color:#0ABF04;
+}
+.e{	background-color:#000000;
+}
+
+#page{	
+	max-width: 900px;
+	margin: 0 auto;
+	max-height: 100%;
+}
+#header{
+	padding:2.5em;
+}
+#header h1{
+	font-size:5em;
+}
+#header h2{
+	font-size:2.5em;
+}
+#header h3{
+	font-size:2em;
+
+}#header h4{
+	font-size:1.5em;
+
+}
+
+#body{
+	width: 100%;
+	
+}
+#content{
+	padding:2.4em;
+    	font-size: 1.2em;	
+}
+
+
+@media (max-width: 775px) {
+#header{
+	text-align:center;
+	padding:5vw;
+}
+#header h1{
+	font-size:5vw;
+}
+#header h2{
+	font-size:3vw;
+}
+#header h3{
+	font-size:2.5vw;
+
+}#header h4{
+	font-size:2vw;
+
+}
+#work, #education, #skills{
+	font-size: 2vw;
+	padding:5vw;
+}
+#content,#hobbies{
+	font-size: 2.1vw;
+	padding:5vw;
+}
+
+
+.hide{
+	display:none;	
+}
